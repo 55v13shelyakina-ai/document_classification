@@ -1,0 +1,22 @@
+{
+    "experiment": "YOLOv8_yolov8s_cls",
+    "week": 7,
+    "model": "YOLOv8-cls",
+    "regime": "full_finetune",
+    "input_size": "640x640",
+    "seed": 2470425,
+    "device": "cpu",
+    "epochs_planned": 50,
+    "epochs_run": 16,
+    "train_time_s": 6614.3467428684235,
+    "latency_ms_per_image": 77.24595546722412,
+    "model_size_mb": 9.7904634475708,
+    "params": 1437442,
+    "test_samples": 312,
+    "metrics": {
+        "accuracy": 0.9615384615384616,
+        "f1_macro": 0.9523809523809525,
+        "precision_macro": 0.9433962264150943,
+        "recall_macro": 0.9615384615384616
+    }
+}

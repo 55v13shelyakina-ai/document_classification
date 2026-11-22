@@ -1,0 +1,3 @@
+paths:
+  quality_model: "../results/mobilenetv3_frozen/best.pt"
+threshold: 0.40

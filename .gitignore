@@ -1,0 +1,11 @@
+# Ignore datasets
+demo_quality_dataset/
+yolo_dataset/
+
+# Ignore python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore local temp files
+temp_*.jpg
