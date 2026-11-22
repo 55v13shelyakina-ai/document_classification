@@ -1,0 +1,62 @@
+[
+    {
+        "file": "bad_inn_blur_051_v3.jpg",
+        "status": "rejected",
+        "quality": "bad",
+        "quality_confidence": 1.0,
+        "document_type": null,
+        "document_type_confidence": null,
+        "reason": "poor_quality",
+        "model_versions": {
+            "quality": "MobileNetV3-Frozen-v1",
+            "doctype": "None"
+        },
+        "latency_ms": 316,
+        "timestamp": "2026-11-22T09:15:54.879387Z"
+    },
+    {
+        "file": "bad_passposrt_exposure_150_v3.jpg",
+        "status": "rejected",
+        "quality": "bad",
+        "quality_confidence": 0.9999,
+        "document_type": null,
+        "document_type_confidence": null,
+        "reason": "poor_quality",
+        "model_versions": {
+            "quality": "MobileNetV3-Frozen-v1",
+            "doctype": "None"
+        },
+        "latency_ms": 22,
+        "timestamp": "2026-11-22T09:15:55.196109Z"
+    },
+    {
+        "file": "good_inn_024_v3.jpg",
+        "status": "accepted",
+        "quality": "good",
+        "quality_confidence": 0.8849,
+        "document_type": "PASSPORT",
+        "document_type_confidence": 0.95,
+        "reason": null,
+        "model_versions": {
+            "quality": "MobileNetV3-Frozen-v1",
+            "doctype": "None"
+        },
+        "latency_ms": 22,
+        "timestamp": "2026-11-22T09:15:55.219047Z"
+    },
+    {
+        "file": "good_snils_076_v1.jpg",
+        "status": "accepted",
+        "quality": "good",
+        "quality_confidence": 0.9914,
+        "document_type": "PASSPORT",
+        "document_type_confidence": 0.95,
+        "reason": null,
+        "model_versions": {
+            "quality": "MobileNetV3-Frozen-v1",
+            "doctype": "None"
+        },
+        "latency_ms": 25,
+        "timestamp": "2026-11-22T09:15:55.241910Z"
+    }
+]
